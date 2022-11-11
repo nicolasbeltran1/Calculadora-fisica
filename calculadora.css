@@ -1,0 +1,64 @@
+
+  
+  .wrapper {
+    background-image: url("./imagenes/sentimiento-de-vacio.jpg");
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 45% 28% 20%;
+      grid-template-rows: 200px 200px 200px;
+      color: #444;
+    }
+  
+    .box {
+      background-image: url("./imagenes/Galaxia.png");
+      color: rgb(255, 255, 255);
+      border-radius: 7px;
+      padding: 0px;
+      font-size: 150%;
+  
+    }
+  
+    .a {
+      grid-column: 1 / 9;
+      grid-row: 1;
+    }
+    .b {
+      grid-column: 1 / 9;
+      grid-row: 4;
+    }
+    .c {
+      grid-column: 1 / 9;
+      grid-row: 2;
+    }
+    .d {
+      grid-column: 1 / 9;
+      grid-row: 3;
+    }
+
+/* CSS */
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
